@@ -1,0 +1,1 @@
+.dkr.ecr..amazonaws.com/visualsearch-yolov5l-train:latest

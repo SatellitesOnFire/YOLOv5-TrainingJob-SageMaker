@@ -11,6 +11,6 @@ name=$(cat $FP_PARA | jq -r '.NAME')
 echo $data
 echo $yolo
 echo $weight
-python /opt/yolov5/train.py --img $img --batch $batch --hyp $hyp --epochs $epochs --data $data \
+python /opt/yolov5/train.py --img $img --batch $batch --epochs $epochs --data $data \ #--hyp $hyp 
 --cfg $yolo --weights $weight --name $name
 cp -r /opt/code/runs/train/$name /opt/ml/model/
