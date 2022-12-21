@@ -1,1 +1,1 @@
-.dkr.ecr..amazonaws.com/visualsearch-yolov5l-train:latest
+287170659883.dkr.ecr.us-east-1.amazonaws.com/visualsearch-yolov5l-train:latest

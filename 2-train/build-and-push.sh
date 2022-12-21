@@ -1,4 +1,5 @@
 #!/bin/bash
+aws configure
 image=$1
 if [ "$image" == "" ]
 then
